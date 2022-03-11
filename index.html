@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>I'm your man!</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light fixnav">
+
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#exp_pro">Expérience professionnelle</a>
+          <a class="nav-link" href="#skills">Compétences</a>
+          <a class="nav-link" href="#diploms">Diplômes</a>
+          <a class="nav-link" href="#moto">Passions</a>
+        </div>
+      </div>
+
+    </div>
+
+  </nav>
+
+  <div class="container-fluid">
+
+    <video preload="auto" autoplay loop="loop" muted="muted" id="videoBG" class='fillWidth'>
+      <source src="./assets/video/pexels-ekachai-lojanaphiwat-8452650.mp4" type="video/mp4" />
+    </video>
+
+    <div class="row justify-content-around" id="header">
+
+      <div class="col-sm-5 col-lg-2 col-xxl-2">
+
+        <div class="portrait">
+          <img src="./assets/img/portrait.jpg" alt="portrait" class="img-fluid img-thumbnail">
+          <div class="card-body portrait_body">
+            <h4 class="card-title" id="myname"><strong>Florent BELLE</strong></h4>
+            <p>
+              5 allée Claude Debussy<br>
+              95230 Soisy-sous-Montmorency<br>
+              42 ans - Permis A,B<br>
+              06.62.15.82.17
+            </p>
+            <a href="https://fr.linkedin.com/in/florent-belle-dev" class="btn bouton_linkedin">LinkedIn</a>
+            <a href="https://github.com/FlorentBelle" class="btn bouton_github">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-7 col-lg-8 col-xxl-9">
+
+        <figure class="text-center resumetitle_bckg card">
+          <blockquote class="blockquote">
+            <h1 class="display-4"><strong>Développeur</strong></h1>
+            <p>
+              Année pré-MSc (3ème année) - EPITECH - contrat en alternance
+            </p>
+          </blockquote>
+        </figure>
+
+        <div class="card" id="profil">
+          <p id="profil_text">
+            HTML, CSS3, Node, PHP, Laravel, Vue, React, React Native, Nest,Next, Mongodb,
+            mysql, sqlite3, Github...<br>
+            Respect, solidarité, engagement, pertinence, ambition, audace, dépassement de
+            soi...<br>
+            Travail en équipe, projets, service client, sciences et techniques, communication,
+            formation, rédaction de rapports et supports de formation...<br>
+
+            Rencontrons nous!
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row" id="exp_pro">
+
+      <div class=" col-sm-7 col-lg-8 col-xxl-7">
+        <figure class="text-center exp_pro_title card">
+          <blockquote class="blockquote ">
+            <h1 class="display-4"><strong>Expérience</strong></h1>
+          </blockquote>
+        </figure>
+      </div>
+
+      <div class=" col-sm-7 col-lg-8 col-xxl-7 exp_list">
+        <ul class="list-group exp_list">
+
+          <li class="list-group-item exp_bb_green" type="button" data-bs-toggle="collapse" data-bs-target="#claranet"
+            aria-expanded="false" aria-controls="claranet"><strong>Développeur Full-Stack (stage), Claranet</strong>
+          </li>
+          <div class="collapse" id="claranet">
+            <li class="list-group-item exp_bb_white">
+              - Migration des espaces d'une instance Confluence server (on-premise) vers le Cloud<br>
+              - Conception et développement d'une librairie de fonctions pour automatiser les actions métier<br>
+              - Mise en place d'un micro-service dédié à Confluence utilisant cette librairie<br>
+              - Mis en place d'un back-up de Confluence une fois migration effectuée<br>
+              - Technos: Node.js, Typescript, PostgreSql, Python, ESlint, RabbitMQ, Postman, Jest, Docker, gitlab CI<br>
+            </li>
+          </div>
+
+          <li class="list-group-item exp_bb_green" type="button" data-bs-toggle="collapse" data-bs-target="#resp"
+            aria-expanded="false" aria-controls="resp"><strong>Responsable Salle Vibrateur, iXblue</strong></li>
+          <div class="collapse" id="resp">
+            <li class="list-group-item exp_bb_white">
+              - Passage cadre suite au succès de la validation d'Airbus de la salle vibrateur.<br>
+              - Gestion des équipements de la salle, pot vibrant, métrologie planification des interventions préventives
+              et correctives<br>
+              - Achat de nouveaux équipements, planning de la salle, relation inter-projet.<br>
+              - Conseil dans la qualification des nouveaux produits.<br>
+              - Rédaction de modes opératoires et du support de formation à la conduite de l'équipement.<br>
+              - Expert, référent et formateur.<br>
+              - Pilotage des essais en vibration et rédaction des rapports de tests de produits du spatial
+              (Airbus/Ixblue)
+            </li>
+          </div>
+
+          <li class="list-group-item exp_bb_green" type="button" data-bs-toggle="collapse" data-bs-target="#pot"
+            aria-expanded="false" aria-controls="pot"><strong>Technicien Tests&Qualifications, iXblue</strong></li>
+          <div class="collapse" id="pot">
+            <li class="list-group-item exp_bb_white">
+              - Tests et qualification au sein de la R&D, tests des produits en environnement vibratoire et chocs.<br>
+              - Pilotage d'un pot vibrant : élaboration d'un plan de test, instrumentation des essai s, programmation et
+              mise en oeuvre.<br>
+              - rédaction des rapports d'essai.<br>
+              - Validation de la salle vibrateur par Airbus en tant que prestataire de test en production d'un produit
+              spatial.
+            </li>
+          </div>
+
+          <li class="list-group-item exp_bb_green" type="button" data-bs-toggle="collapse" data-bs-target="#SAV"
+            aria-expanded="false" aria-controls="SAV"><strong>Technicien SAV, iXblue, Securitas, Spie</strong></li>
+          <div class="collapse" id="SAV">
+            <li class="list-group-item exp_bb_white">
+              - Diagnostique: électronique, mécanique, mesures de capteurs)<br>
+              - Devis (anglais) et réparations de centrales d'attitude et inertielles (technologie gyrocompas à fibre
+              optique_FOG)<br>
+              - Missions ponctuelles à l'étranger (Islande, USA (Oklahoma))<br>
+            </li>
+          </div>
+          <li class="list-group-item exp_bb_green"><strong>Technicien SAV, Securitas Direct</strong></li>
+          <li class="list-group-item exp_bb_white">
+            - Technicien itinérant
+            - Maintenance préventive et curative sur des systèmes d'alarmes
+            - Import
+          </li>
+
+
+          <li class="list-group-item exp_bb_green"><strong>Technicien de production, Thales, STMicroelectronics</strong>
+          </li>
+          <li class="list-group-item exp_bb_white">- Gestion et optimisation du flux de production, pilotage
+            d'équipement</li>
+          <li class="list-group-item exp_bb_green"><strong>Opérateur en salle blanche, STmicroelectronics</strong></li>
+          <li class="list-group-item exp_bb_white">- Conditionnement: et Tri final: tri électrique</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row justify-content-center" id="skills">
+
+      <div class="col-sm-9 col-lg-9 col-xxl-9">
+        <figure class="text-center exp_skills card">
+          <blockquote class="blockquote ">
+            <h1 class="display-4"><strong>Compétences</strong></h1>
+          </blockquote>
+        </figure>
+      </div>
+
+      <div class="card col-md-4 col-lg-3 skill_card text-center">
+        <h3>Esprit d'équipe</h3>
+        <div class="text-center">
+          <img src="./assets/img/rugby.jpg" alt="rugby" class="img-fluid skill_img">
+        </div>
+      </div>
+
+      <div class="card col-md-4 col-lg-3 skill_card text-center">
+        <h3>Communication</h3>
+        <div class="text-center">
+          <img src="./assets/img/com.jpg" alt="com" class="img-fluid skill_img">
+        </div>
+      </div>
+
+      <div class="card col-md-4 col-lg-3 skill_card text-center">
+        <h3>Gestion du temps</h3>
+        <div class="text-center">
+          <img src="./assets/img/time.jpg" alt="time" class="img-fluid skill_img">
+        </div>
+      </div>
+
+      <div class="card col-md-4 col-lg-3 skill_card text-center">
+        <h3>Autonomie</h3>
+        <div class="text-center">
+          <img src="./assets/img/alone.jpg" alt="desert" class="img-fluid skill_img">
+        </div>
+      </div>
+
+      <div class="card col-md-4 col-lg-3 skill_card text-center">
+        <h3>Organisation</h3>
+        <div class="text-center">
+          <img src="./assets/img/kanban.PNG" alt="kanban" class="img-fluid skill_img">
+        </div>
+      </div>
+
+      <div class="card col-md-4 col-lg-3 skill_card text-center">
+        <h3>Service Client</h3>
+        <div class="text-center">
+          <img src="./assets/img/client.jpg" alt="customer" class="img-fluid skill_img">
+        </div>
+      </div>
+
+      <div class="card col-md-4 col-lg-3 skill_card offset-2 text-center">
+        <h3>Facilités d'apprentissage</h3>
+        <div class="text-center">
+          <img src="./assets/img/learn.jpg" alt="learn" class="img-fluid skill_img">
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="row justify-content-end" id="diploms">
+
+      <div class="col-sm-7 col-lg-8 col-xxl-7 diplom_title">
+        <figure class="text-center exp_pro_title card">
+          <blockquote class="blockquote ">
+            <h1 class="display-4"><strong>Diplômes</strong></h1>
+          </blockquote>
+        </figure>
+      </div>
+
+      <div class="col-sm-7 col-lg-8 col-xxl-7 diplom_list">
+
+        <ul class="list-group diplom_list">
+          <li class="list-group-item exp_bb_green"><strong>Developpeur Web/mobile - spécialité Full-Stack,
+              Coding-Accademy by EPITECH</strong></li>
+          <li class="list-group-item exp_bb_green"><strong>BTS électrotechnique, GRETA</strong></li>
+          <li class="list-group-item exp_bb_green"><strong>DEUG MASS, Université Pierre Mendes-France (Grenoble
+              II)</strong></li>
+          <li class="list-group-item exp_bb_green"><strong>EOPN, Armée de l'Air</strong></li>
+          <li class="list-group-item exp_bb_green"><strong>MPSI, Ecole de Pupilles de l'Air</strong></li>
+          <li class="list-group-item exp_bb_green"><strong>Baccalauréat S, option Maths, mention Bien, Lycée Aristide
+              Bergès</strong></li>
+          <li class="list-group-item exp_bb_green"><strong>Langues étrangères: anglais</strong></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="row" id="moto">
+
+      <div class="col-sm-7 col-lg-8 col-xxl-7 hobby_title">
+        <figure class="text-center exp_pro_title card">
+          <blockquote class="blockquote ">
+            <h1 class="display-4"><strong>Passions</strong></h1>
+          </blockquote>
+        </figure>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-end" id="jvideo"></div>
+    <div class="row justify-content-center" id="piano"></div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
